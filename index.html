@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1220">
 <title>LeadFlow — Lead management</title>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 <link rel="stylesheet" href="styles.css"></head><body>
 <main class="wrap">
 <section id="authView" class="auth card"><div class="brand">Lead<span>Flow</span></div><p class="muted">Keep every job opportunity moving.</p><div class="tabs"><button id="loginTab" class="active" type="button">Sign in</button><button id="signupTab" type="button">Create account</button></div><form id="authForm"><label for="authEmail">Email</label><input id="authEmail" type="email" autocomplete="email" required><label for="authPassword">Password</label><input id="authPassword" type="password" minlength="8" autocomplete="current-password" required><div style="margin-top:14px"><button id="authSubmit" type="submit" style="width:100%">Sign in</button></div></form><div id="authMessage" class="notice hidden"></div><p class="sub">Supabase may require email confirmation before sign-in. Use a real email you can access.</p></section>
